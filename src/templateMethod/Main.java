@@ -1,4 +1,4 @@
-import templateMethod.*;
+package templateMethod;
 
 public class Main {
 
