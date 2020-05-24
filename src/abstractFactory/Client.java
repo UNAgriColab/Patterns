@@ -9,7 +9,7 @@ public class Client {
         deliveryDocument = factory.createDeliveryDocument();
     }
 
-    public Class<? extends Packaging> getPaackaging() {
+    public Class<? extends Packaging> getPackaging() {
         return this.packaging.getClass();
     }
 

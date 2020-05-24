@@ -7,12 +7,12 @@ public class Main {
 
         PurchaseFactory spf = new StandardPurchaseFactory();
         Client standard = new Client(spf);
-        System.out.println(standard.getPaackaging());
+        System.out.println(standard.getPackaging());
         System.out.println(standard.getDeliveryDocument());
 
         PurchaseFactory dpf = new DeletePurchaseFactory();
         Client delicate = new Client(dpf);
-        System.out.println(delicate.getPaackaging());
+        System.out.println(delicate.getPackaging());
         System.out.println(delicate.getDeliveryDocument());
     }
 }
