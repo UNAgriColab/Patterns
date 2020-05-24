@@ -11,7 +11,7 @@ public abstract class baseScoreAlgorithm {
     }
 
     public  int CalculateBaseScore(int hits){
-        return 0;
+        return 2;
     }
 
     public  int CalculateReduction(Period time){
