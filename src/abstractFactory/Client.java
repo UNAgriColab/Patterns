@@ -1,19 +1,19 @@
 package abstractFactory;
 
 public class Client {
-    private Packaging paackaging;
+    private Packaging packaging;
     private DeliveryDocument deliveryDocument;
 
     public Client(PurchaseFactory factory){
-        paackaging = factory.createPackaging();
+        packaging = factory.createPackaging();
         deliveryDocument = factory.createDeliveryDocument();
     }
 
-    public Packaging getPaackaging() {
-        return paackaging;
+    public Class<? extends Packaging> getPaackaging() {
+        return this.packaging.getClass();
     }
 
-    public DeliveryDocument getDeliveryDocument() {
-        return deliveryDocument;
+    public Class<? extends DeliveryDocument> getDeliveryDocument() {
+        return this.deliveryDocument.getClass();
     }
 }
