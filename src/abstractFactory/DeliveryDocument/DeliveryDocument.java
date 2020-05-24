@@ -1,4 +1,4 @@
-package abstractFactory;
+package abstractFactory.DeliveryDocument;
 
 public abstract class DeliveryDocument {
 

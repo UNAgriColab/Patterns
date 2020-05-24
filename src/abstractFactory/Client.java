@@ -1,5 +1,9 @@
 package abstractFactory;
 
+import abstractFactory.DeliveryDocument.DeliveryDocument;
+import abstractFactory.Packaging.Packaging;
+import abstractFactory.PurchaseFactory.PurchaseFactory;
+
 public class Client {
     private Packaging packaging;
     private DeliveryDocument deliveryDocument;

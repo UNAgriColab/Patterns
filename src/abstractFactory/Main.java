@@ -1,5 +1,8 @@
 package abstractFactory;
 
+import abstractFactory.PurchaseFactory.PurchaseFactory;
+import abstractFactory.PurchaseFactory.StandardPurchaseFactory;
+import abstractFactory.PurchaseFactory.DeletePurchaseFactory;
 public class Main {
 
     public static void main(String[] args) {
